@@ -1,33 +1,31 @@
-#include <iostream>
-using namespace std;
+Questões escolhidas:
 
-//QUESTÃO 7 DE FUNÇÕES
+FUNÇÕES / QUESTÃO 7
 
-// Função que verifica se um número é par
-int verificarPar(int numero) {
-    if (numero % 2 == 0) {
-        return 1; // Retorna 1 se for par
-    } else {
-        return 0; // Retorna 0 se for ímpar
-    }
-}
+VETOR DE STRING / QUESTÃO 10
 
-int main() {
-    int numero;
+STRUCT / QUESTÃO 1
 
-    cout << "Digite um numero inteiro: ";
-    cin >> numero;
+Detalhes das questões 
 
-    // Chama a função e verifica o resultado
-    if (verificarPar(numero) == 1) {
-        cout << numero << " E um numero par." << endl;
-    } else {
-        cout << numero << " E um numero impar." << endl;
-    }
+FUNÇÕES:
 
-    return 0;
-}
+A questão de Funções tem como objetivo de identificar um número se ele é ímpar ou par
 
+VETOR DE STRING:
 
+Tem como objetivo de imprimir qualquer palavra e inverter de trás pra frente 
 
+STRUCT 
 
+Tem como objetivo de Cadastrar 5 alunos e identificando como:
+
+Nome (string)
+
+Email (string)
+
+Data de Nascimento (string)
+
+5 Notas (float)
+
+E as notas tem que ser somas e dá a média entre cada a aluno.
