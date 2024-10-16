@@ -13,9 +13,13 @@ Tem como função de imprimir qualquer palavra de trás pra frente.
 Questão 1 de struct:
 
 Tem como função de cadastrar um ALUNO na lista informando o: 
+
 Nome (string).
+
 Email (string).
+
 Data de nascimento (string).
+
 Notas (float).
 
 E ao final mostra 5 notas de cada aluno e difinir a média de cada aluno.
