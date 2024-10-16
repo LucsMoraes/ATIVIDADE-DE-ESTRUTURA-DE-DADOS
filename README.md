@@ -1,33 +1,32 @@
-Os exercicíos escolhidos foram:
+#include <iostream>
+using namespace std;
 
--Questão 7 de funções
+//QUESTÃO 7 DE FUNÇÕES
 
--Questão 1 de struct.
+// Função que verifica se um número é par
+int verificarPar(int numero) {
+    if (numero % 2 == 0) {
+        return 1; // Retorna 1 se for par
+    } else {
+        return 0; // Retorna 0 se for ímpar
+    }
+}
 
--Questão 10 de vetor de string.
+int main() {
+    int numero;
 
-questão 4 de vetor de string:
+    cout << "Digite um numero inteiro: ";
+    cin >> numero;
 
-Tem como função de imprimir qualquer palavra de trás pra frente.
+    // Chama a função e verifica o resultado
+    if (verificarPar(numero) == 1) {
+        cout << numero << " E um numero par." << endl;
+    } else {
+        cout << numero << " E um numero impar." << endl;
+    }
 
-Questão 1 de struct:
-
-Tem como função de cadastrar um ALUNO na lista informando o: 
-
-Nome (string).
-
-Email (string).
-
-Data de nascimento (string).
-
-Notas (float).
-
-E ao final mostra 5 notas de cada aluno e difinir a média de cada aluno.
-
-Questão 7 de funções:
-
-Tem como função de imprimir um número e identificar se ele é ímpar ou par.
-
+    return 0;
+}
 
 
 
