@@ -3,8 +3,8 @@ Os exercicíos escolhidos foram:
 -Questão 1 de STRUCT
 -Questão 10 de VETOR DE STRING
 
-QUESTÃO 10 DE VETOR DE STRING:
+questão 4 de vetor de string:
 Tem como função de imprimir qualquer palavra de trás pra frente
 
-QUESTÃO 1 DE STRUCT:
+Questão 1 de struct:
 Tem como função de cadastrar uma lista informando o: Nome (string)
