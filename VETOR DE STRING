@@ -1,1 +1,21 @@
+#include <iostream>
+#include <string>
+#include <algorithm> // Para std::reverse
 
+//QUESTÃO 10 DE VETOR DE STRING
+
+using namespace std;
+
+int main() {
+    string nome;
+
+    cout << "Digite qualquer palavra: "; //Escreva qualquer palavra
+    getline(cin, nome); // Permite ler nomes com espaços
+
+    // Inverte a string
+    reverse(nome.begin(), nome.end());
+
+    cout << "Nome de tras para frente: " << nome << endl;
+
+    return 0;
+}
